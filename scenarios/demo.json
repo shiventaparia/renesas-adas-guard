@@ -1,0 +1,48 @@
+{
+  "name": "guard-demo",
+  "steps": [
+    {
+      "name": "normal",
+      "now_s": 10.5,
+      "heartbeat_at_s": 10.0
+    },
+    {
+      "name": "hot",
+      "now_s": 11.5,
+      "heartbeat_at_s": 11.0,
+      "ambient_temp_c": 80.0
+    },
+    {
+      "name": "fog",
+      "now_s": 12.5,
+      "heartbeat_at_s": 12.0,
+      "ambient_temp_c": 20.0,
+      "relative_humidity_pct": 95.0
+    },
+    {
+      "name": "tilt",
+      "now_s": 13.5,
+      "heartbeat_at_s": 13.0,
+      "mount_tilt_deg": 5.1
+    },
+    {
+      "name": "vibration",
+      "now_s": 14.5,
+      "heartbeat_at_s": 14.0,
+      "vibration_rms_g": 0.81
+    },
+    {
+      "name": "sensor-fault",
+      "now_s": 15.5,
+      "heartbeat_at_s": 15.0,
+      "sensor_faults": [
+        "temperature"
+      ]
+    },
+    {
+      "name": "heartbeat-loss",
+      "now_s": 17.0,
+      "heartbeat_at_s": null
+    }
+  ]
+}
