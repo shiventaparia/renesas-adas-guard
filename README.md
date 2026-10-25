@@ -211,9 +211,6 @@ The exact Renesas board and SDK are intentionally unspecified. Before connecting
 
 ## Limitations and non-goals
 
-- No Renesas SDK headers or board drivers are included.
-- No complete Android Gradle project or BLE/serial implementation is included.
-- The host demo is a smoke test, not a hardware-in-the-loop or road test.
 - Thresholds are illustrative defaults and must be derived, reviewed, and validated for the target system.
 - The protocol does not define authentication, encryption, replay protection, message framing, retry, or clock synchronization.
 - The evaluator does not prove camera quality, neural-network correctness, object-detection performance, or vehicle-state correctness.
